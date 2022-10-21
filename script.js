@@ -1,26 +1,26 @@
-var danielle = {
-  nome: "Danielle",
-  vitorias: 1,
-  empates: 2,
-  derrotas: 3,
+var paulo = {
+  nome: "Paulo",
+  vitorias: 2,
+  empates: 5,
+  derrotas: 1,
   pontos: 0
 }
-var rodrigo = {
-  nome: "Rodrigo",
+var rafaela = {
+  nome: "Rafaela",
   vitorias: 3,
-  empates: 2,
+  empates: 5,
   derrotas: 2,
   pontos: 0
 }
-danielle.pontos = calculaPontos(danielle)
-rodrigo.pontos = calculaPontos(rodrigo)
+paulo.pontos = calculaPontos(paulo)
+rafaela.pontos = calculaPontos(rafaela)
 
 function calculaPontos(jogador){
   var pontos = (jogador.vitorias *3) + jogador.empates
   return pontos
 }
 
-var jogadores = [rodrigo, danielle]
+var jogadores = [rafaela, paulo]
 
 exibirJogadores(jogadores)
 
