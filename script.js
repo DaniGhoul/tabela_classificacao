@@ -1,15 +1,15 @@
 var danielle = {
   nome: "Danielle",
-  vitorias: 0,
-  empates: 0,
-  derrotas: 0,
+  vitorias: 1,
+  empates: 2,
+  derrotas: 3,
   pontos: 0
 }
 var rodrigo = {
   nome: "Rodrigo",
-  vitorias: 0,
-  empates: 0,
-  derrotas: 0,
+  vitorias: 3,
+  empates: 2,
+  derrotas: 2,
   pontos: 0
 }
 danielle.pontos = calculaPontos(danielle)
